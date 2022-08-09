@@ -1,0 +1,110 @@
+/*Estilos generales*/
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: 'Poppins';
+		color: #ffffff;
+		background-color: #003361;
+	}
+	a {color: inherit;
+	}
+	h1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		text-decoration: underline;
+	}
+	h2 {
+		font-style: italic;
+	}
+	span {
+		font-style: normal;
+	}
+/*Fin Estilos generales*/
+/*Encabezado*/
+	header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	.menu li {display: inline-block;
+	}
+/*Fin Encabezado*/
+/*Index*/
+	.carrusel {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-decoration: underline;
+		font-style: 700px;
+	}
+	.opciones_carrusel {
+		display: flex;
+		flex-direction: row;
+		justify-content: stretch;
+	}
+	.segurosvehiculares {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.combinadosfamiliares {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.segurospersonales {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+/*Fin Index*/
+/*¿Quiénes Somos?*/
+	.cuerpo_quienes_somos {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+/*Fin ¿Quiénes Somos?*/
+/*Servicios*/
+	.cuerpo_servicios {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+/*Fin Servicios*/
+/*Sucursales*/
+	.cuerpo_sucursales {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+/*Fin Sucursales*/
+/*Contacto*/
+	.cuerpo_contacto {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+/*Fin Contacto*/
+/*Pie de página*/
+	footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.p_footer {
+		font-style: italic;
+	}
+/*Fin Pie de página*/
