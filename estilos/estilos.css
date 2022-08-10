@@ -1,0 +1,209 @@
+/*Estilos generales*/
+	* {
+		margin: 0;
+		padding: 0;		
+	}
+	a {
+		color: inherit;
+	}
+	h1 {
+		font-family: 'Poppins';
+		text-decoration: underline;
+		text-align: center;
+		color: white;
+	}
+	h2 {
+		font-family: 'Poppins';
+		font-style: italic;
+		text-align: center;
+		color: white;
+	}
+	span {
+		font-family: 'Poppins';
+		font-style: normal;
+		color: white;
+	}
+/*Encabezado*/
+	header {
+		font-family: 'Poppins';
+		color: #ffffff;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-end;
+		background-color: #731723;
+	}
+	.menu li {
+		padding: 3px;
+		display: inline-block;
+	}
+/*Index*/
+	.carrusel {
+		font-family: 'Poppins';
+		color: #ffffff;
+		font-size: 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-decoration: underline;
+		background-color: #003361;
+	}
+	.h1_index {color: #003361;
+	}
+	.opciones_carrusel {
+		font-family: 'Poppins';
+		color: #ffffff;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		background-color: #003361;
+	}
+	.opciones_carrusel li {
+		padding: 5px;
+		font-family: 'Poppins';
+		font-size: 32px;
+		color: #ffffff;
+		display: inline-block;
+	}
+	.grilla {
+		padding: 15px;
+		font-family: 'Poppins';
+		color: #ffffff;
+		font-size: 32px;
+		display: grid;
+		grid-template-columns: minmax(auto, 1fr) minmax(auto, 1fr);
+		grid-template-rows: minmax(auto, 480px) minmax(auto, 480px) minmax(auto, 480px);
+		justify-items: center;
+		align-items: center;
+		background-color: #003361;
+	}
+/*¿Quiénes Somos?*/
+	.cuerpo_quienes_somos {
+		padding: 15px;
+		font-family: 'Poppins';
+		color: white;
+		background-color: #003361;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+/*Servicios*/
+	.cuerpo_servicios {
+		font-family: 'Poppins';
+		color: white;
+		background-color: #003361;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding: 20px;
+	}
+/*Sucursales*/
+	.cuerpo_sucursales {
+		background-color: #003361;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.imagen_mapa {
+		padding: 20px;
+	}
+/*Contacto*/
+	.cuerpo_contacto {
+		background-color: #003361;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding: 20px;
+	}
+	.h1_contacto {
+		padding: 20px;
+		padding-top: 0px;
+	}
+	.form_contacto {
+		padding: 20px;	
+	}
+	.cuerpo_contacto input{
+		font-family: 'Poppins';
+		color: #003361;
+	}
+/*Pie de página*/
+	footer {
+		padding: 15px;
+		font-family: 'Poppins';	
+		font-style: italic;
+		font-weight: bold;
+		color: #003361;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+@media (max-width: 960px) {
+	.carrusel {
+		font-size: 40px;
+	}
+	.opciones_carrusel li {
+	font-size: 20px;
+	}
+}
+@media (max-width: 920px) {
+	.img_seguros_vehiculares {
+		grid-area: imagen_seguros_vehiculares;
+	}
+	.p_seguros_vehiculares {
+		grid-area: parrafo_seguros_vehiculares;
+	}
+	.p_combinados_familiares {
+		grid-area: parrafo_combinados_familiares;
+	}
+	.img_combinados_familiares {
+		grid-area: imagen_combinados_familiares;
+	}
+	.img_seguros_personales {
+		grid-area: imagen_seguros_personales;
+	}
+	.p_seguros_personales {
+		grid-area: parrafo_seguros_personales;
+	}
+	.grilla {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, minmax(auto, 300px));
+		grid-template-areas: 'imagen_seguros_vehiculares'
+							'parrafo_seguros_vehiculares'
+							'imagen_combinados_familiares'
+							'parrafo_combinados_familiares'
+							'imagen_seguros_personales'
+							'parrafo_seguros_personales';
+	}
+}
+@media (max-width: 770px) {
+	header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu li {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.carrusel ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.opciones_carrusel li {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
