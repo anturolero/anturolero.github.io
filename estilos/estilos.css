@@ -37,6 +37,13 @@
 	.menu li {
 		padding: 3px;
 		display: inline-block;
+		transition-property: font-size;
+		transition-duration: 280ms;
+		transition-timing-function: ease-in;
+		transition-delay: 0s;
+	}
+	.menu li:hover{
+		font-size: 20px;
 	}
 /*Index*/
 	.carrusel {
@@ -77,14 +84,14 @@
 		grid-template-rows: minmax(auto, 480px) minmax(auto, 480px) minmax(auto, 480px);
 		justify-items: center;
 		align-items: center;
-		background-color: #003361;
+		background-image: linear-gradient(#003361 , #6EC6E5);
 	}
 /*¿Quiénes Somos?*/
 	.cuerpo_quienes_somos {
 		padding: 15px;
 		font-family: 'Poppins';
 		color: white;
-		background-color: #003361;
+		background-image: linear-gradient(#003361 , #6EC6E5);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -94,7 +101,7 @@
 	.cuerpo_servicios {
 		font-family: 'Poppins';
 		color: white;
-		background-color: #003361;
+		background-image: linear-gradient(#003361 , #6EC6E5);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -103,7 +110,7 @@
 	}
 /*Sucursales*/
 	.cuerpo_sucursales {
-		background-color: #003361;
+		background-image: linear-gradient(#003361 , #6EC6E5);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -114,7 +121,7 @@
 	}
 /*Contacto*/
 	.cuerpo_contacto {
-		background-color: #003361;
+		background-image: linear-gradient(#003361 , #6EC6E5);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
