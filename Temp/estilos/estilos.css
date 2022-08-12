@@ -35,55 +35,32 @@
 		background-color: #731723;
 	}
 	.menu li {
-		padding: 3px;
+		padding: 0px;
+		margin: 0px;
 		display: inline-block;
-		transition-property: font-size;
+		background-color: #731723;
+		/*transition-property: font-size;
 		transition-duration: 280ms;
 		transition-timing-function: ease-in;
-		transition-delay: 0s;
+		transition-delay: 0s;*/
 	}
-	.menu li:hover{
-		font-size: 20px;
+	.navbar {
+		padding: 0px;
+	}
+	.menu {
+		padding: 0px;
+		margin: 0px;
+		display: inline-block;
+		background-color: #731723;
 	}
 /*Index*/
-	.carrusel {
-		font-family: 'Poppins';
-		color: #ffffff;
-		font-size: 80px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-decoration: underline;
-		background-color: #003361;
-	}
 	.h1_index {color: #003361;
 	}
-	.opciones_carrusel {
-		font-family: 'Poppins';
-		color: #ffffff;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		background-color: #003361;
-	}
-	.opciones_carrusel li {
-		padding: 5px;
-		font-family: 'Poppins';
-		font-size: 32px;
-		color: #ffffff;
-		display: inline-block;
-	}
-	.grilla {
+	.col {
 		padding: 15px;
 		font-family: 'Poppins';
 		color: #ffffff;
 		font-size: 32px;
-		display: grid;
-		grid-template-columns: minmax(auto, 1fr) minmax(auto, 1fr);
-		grid-template-rows: minmax(auto, 480px) minmax(auto, 480px) minmax(auto, 480px);
-		justify-items: center;
-		align-items: center;
 		background-image: linear-gradient(#003361 , #6EC6E5);
 	}
 /*¿Quiénes Somos?*/
@@ -157,36 +134,6 @@
 	}
 	.opciones_carrusel li {
 	font-size: 20px;
-	}
-}
-@media (max-width: 920px) {
-	.img_seguros_vehiculares {
-		grid-area: imagen_seguros_vehiculares;
-	}
-	.p_seguros_vehiculares {
-		grid-area: parrafo_seguros_vehiculares;
-	}
-	.p_combinados_familiares {
-		grid-area: parrafo_combinados_familiares;
-	}
-	.img_combinados_familiares {
-		grid-area: imagen_combinados_familiares;
-	}
-	.img_seguros_personales {
-		grid-area: imagen_seguros_personales;
-	}
-	.p_seguros_personales {
-		grid-area: parrafo_seguros_personales;
-	}
-	.grilla {
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat(6, minmax(auto, 300px));
-		grid-template-areas: 'imagen_seguros_vehiculares'
-							'parrafo_seguros_vehiculares'
-							'imagen_combinados_familiares'
-							'parrafo_combinados_familiares'
-							'imagen_seguros_personales'
-							'parrafo_seguros_personales';
 	}
 }
 @media (max-width: 770px) {
