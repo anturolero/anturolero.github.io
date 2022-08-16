@@ -3,33 +3,28 @@
 		margin: 0;
 		padding: 0;		
 	}
-	html {
-	  min-height: 100%;
-	  position: relative;
+	body {
+		font-family: 'Poppins';
 	}
 	a {
 		color: inherit;
 	}
 	h1 {
-		font-family: 'Poppins';
 		text-decoration: underline;
 		text-align: center;
 		color: white;
 	}
 	h2 {
-		font-family: 'Poppins';
 		font-style: italic;
 		text-align: center;
 		color: white;
 	}
 	span {
-		font-family: 'Poppins';
 		font-style: normal;
 		color: white;
 	}
 /*Encabezado*/
 	header {
-		font-family: 'Poppins';
 		color: #ffffff;
 		display: flex;
 		flex-wrap: wrap;
@@ -43,10 +38,6 @@
 		margin: 0px;
 		display: inline-block;
 		background-color: #731723;
-		/*transition-property: font-size;
-		transition-duration: 280ms;
-		transition-timing-function: ease-in;
-		transition-delay: 0s;*/
 	}
 	.navbar {
 		padding: 0px;
@@ -65,14 +56,12 @@
 	}
 	.col {
 		padding: 15px;
-		font-family: 'Poppins';
 		color: #ffffff;
 		font-size: 32px;
 	}
 /*¿Quiénes Somos?*/
 	.cuerpo_quienes_somos {
 		padding: 15px;
-		font-family: 'Poppins';
 		color: white;
 		background-image: linear-gradient(#003361 , #6EC6E5);
 		display: flex;
@@ -82,8 +71,6 @@
 	}
 /*Servicios*/
 	.cuerpo_servicios {
-		min-height: 70%;
-		font-family: 'Poppins';
 		color: white;
 		background-image: linear-gradient(#003361 , #6EC6E5);
 		display: flex;
@@ -120,13 +107,11 @@
 		padding: 20px;	
 	}
 	.cuerpo_contacto input{
-		font-family: 'Poppins';
 		color: #003361;
 	}
 /*Pie de página*/
 	footer {
 		padding-top: 15px;
-		font-family: 'Poppins';	
 		font-style: italic;
 		font-weight: bold;
 		color: #003361;
