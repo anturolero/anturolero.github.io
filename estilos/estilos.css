@@ -3,6 +3,10 @@
 		margin: 0;
 		padding: 0;		
 	}
+	html {
+	  min-height: 100%;
+	  position: relative;
+	}
 	a {
 		color: inherit;
 	}
@@ -54,6 +58,9 @@
 		background-color: #731723;
 	}
 /*Index*/
+	.cuerpo_index {
+		background-image: linear-gradient(#003361 , #6EC6E5);
+	}
 	.h1_index {color: #003361;
 	}
 	.col {
@@ -61,7 +68,6 @@
 		font-family: 'Poppins';
 		color: #ffffff;
 		font-size: 32px;
-		background-image: linear-gradient(#003361 , #6EC6E5);
 	}
 /*¿Quiénes Somos?*/
 	.cuerpo_quienes_somos {
@@ -76,6 +82,7 @@
 	}
 /*Servicios*/
 	.cuerpo_servicios {
+		min-height: 70%;
 		font-family: 'Poppins';
 		color: white;
 		background-image: linear-gradient(#003361 , #6EC6E5);
@@ -118,7 +125,7 @@
 	}
 /*Pie de página*/
 	footer {
-		padding: 15px;
+		padding-top: 15px;
 		font-family: 'Poppins';	
 		font-style: italic;
 		font-weight: bold;
