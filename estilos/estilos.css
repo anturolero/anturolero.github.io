@@ -4,6 +4,8 @@
 		padding: 0;		
 	}
 	body {
+		display: flex;
+		flex-direction: column;
 		font-family: 'Poppins';
 	}
 	a {
@@ -26,6 +28,7 @@
 /*Encabezado*/
 	header {
 		color: #ffffff;
+		flex-grow: 1;
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
@@ -58,6 +61,16 @@
 		padding: 15px;
 		color: #ffffff;
 		font-size: 32px;
+		align-self: center;
+	}
+	.p_seguros_vehiculares {
+		text-align: center;
+	}
+	.p_combinados_familiares {
+		text-align: center;
+	}
+	.p_seguros_personales {
+		text-align: center;
 	}
 /*¿Quiénes Somos?*/
 	.cuerpo_quienes_somos {
@@ -73,6 +86,7 @@
 	.cuerpo_servicios {
 		color: white;
 		background-image: linear-gradient(#003361 , #6EC6E5);
+		flex-grow: 2;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -111,6 +125,7 @@
 	}
 /*Pie de página*/
 	footer {
+		flex-grow: 1;
 		padding-top: 15px;
 		font-style: italic;
 		font-weight: bold;
