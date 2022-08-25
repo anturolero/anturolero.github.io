@@ -70,14 +70,14 @@ header {
   align-items: center; }
 
 .cuerpo_servicios {
+  padding: 20px;
+  flex-grow: 2;
   color: white;
   background-image: linear-gradient(#003361, #6EC6E5);
-  flex-grow: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  padding: 20px; }
+  align-items: center; }
 
 .cuerpo_sucursales {
   background-image: linear-gradient(#003361, #6EC6E5);
@@ -90,12 +90,12 @@ header {
   padding: 20px; }
 
 .cuerpo_contacto {
+  padding: 20px;
   background-image: linear-gradient(#003361, #6EC6E5);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  padding: 20px; }
+  align-items: center; }
 
 .h1_contacto {
   padding: 20px;

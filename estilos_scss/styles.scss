@@ -61,42 +61,33 @@ header {
 	font-size: 32px;
 	align-self: center;
 }
+@mixin cuerpos {
+	background-image: linear-gradient(#003361 , #6EC6E5);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
 .cuerpo_quienes_somos {
 	padding: 15px;
 	color: white;
-	background-image: linear-gradient(#003361 , #6EC6E5);
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+	@include cuerpos;
 }
 .cuerpo_servicios {
-	color: white;
-	background-image: linear-gradient(#003361 , #6EC6E5);
-	flex-grow: 2;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
 	padding: 20px;
+	flex-grow: 2;
+	color: white;
+	@include cuerpos;
 }
 .cuerpo_sucursales {
-	background-image: linear-gradient(#003361 , #6EC6E5);
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+	@include cuerpos;
 }
 .imagen_mapa {
 	padding: 20px;
 }
 .cuerpo_contacto {
-	background-image: linear-gradient(#003361 , #6EC6E5);
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
 	padding: 20px;
+	@include cuerpos;
 }
 .h1_contacto {
 	padding: 20px;
