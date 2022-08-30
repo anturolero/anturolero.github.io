@@ -1,3 +1,6 @@
+$azul_oscuro: #003361;
+$celeste: #6EC6E5;
+$bordo: #731723;
 * {
 	margin: 0;
 	padding: 0;		
@@ -25,7 +28,7 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-end;
-	background-color: #731723;
+	background-color: $bordo;
 }
 .navbar {
 	padding: 0px;
@@ -34,14 +37,14 @@ header {
 	padding: 0px;
 	margin: 0px;
 	display: inline-block;
-	background-color: #731723;
+	background-color: $bordo;
 }
 .menu {
 	li {
 		padding: 0px;
 		margin: 0px;
 		display: inline-block;
-		background-color: #731723;
+		background-color: $bordo;
 	}	
 }
 main {
@@ -56,7 +59,7 @@ main {
 .h1_index {
 	padding: 30px;
 	font-size: 48px;
-	color: #003361;
+	color: $azul_oscuro;
 }
 @for $bucle from 1 through 3 {
 	.img_seguro_#{$bucle} {
@@ -78,11 +81,11 @@ main {
 	align-items: center;
 	font-size: 32px;
 	color: white;
-	background-image: linear-gradient(#003361, #6EC6E5);
+	background-image: linear-gradient($azul_oscuro , $celeste);
 }
 @mixin cuerpos {
 	min-height: calc(100vh - 115px - 85px);
-	background-image: linear-gradient(#003361 , #6EC6E5);
+	background-image: linear-gradient($azul_oscuro , $celeste);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -122,7 +125,7 @@ main {
 }
 .cuerpo_contacto {
 	input{
-		color: #003361;
+		color: $azul_oscuro;
 	}
 }
 textarea {
@@ -134,7 +137,7 @@ footer {
 	padding-top: 15px;
 	font-style: italic;
 	font-weight: bold;
-	color: #003361;
+	color: $azul_oscuro;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
