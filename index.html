@@ -16,7 +16,7 @@
 <body>
 	<header>
 		<div>
-			<img class="rounded" src="imagenes/logo.jpg" width="300" title="Logo" alt="Logo" />
+			<img class="rounded" src="imagenes/logo.jpg" title="Logo" alt="Logo" />
 		</div>
 		<!-- Inicio menu de navegación -->
 		<nav class="navbar bg-light">
@@ -30,66 +30,56 @@
 		</nav>
 		<!-- Fin menu de navegación -->
 	</header>
-	<!-- Inicio carrusel de imagenes -->
-	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-inner">
-	    	<div class="carousel-item active">
-	    		<a href="#img_seguros_vehiculares">
-	    			<img src="imagenes/autos.jpg" class="d-block w-100" title="Vehiculos" alt="Vehiculos">
-				</a>
-	    </div>
-	    <div class="carousel-item">
-	    	<a href="#img_combinados_familiares">
-	    		<img src="imagenes/casa.jpg" class="d-block w-100" title="Vivienda" alt="Vivienda">
-	    	</a>
-	    </div>
-	    <div class="carousel-item">
-	    	<a href="#img_seguros_personales">
-		    	<img src="imagenes/personas.jpg" class="d-block w-100" title="Personas" alt="Personas">
-		    </a>
-	    </div>
+	<main>
+		<!-- Inicio carrusel de imagenes -->
+		<div class="contenedor_carrusel">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+			    	<div class="carousel-item active">
+			    		<a href="#img_seguros_vehiculares">
+			    			<img src="imagenes/autos_c.jpg" class="d-block w-100" title="Vehiculos" alt="Vehiculos">
+						</a>
+				    </div>
+				    <div class="carousel-item">
+				    	<a href="#img_combinados_familiares">
+				    		<img src="imagenes/casa_c.jpg" class="d-block w-100" title="Vivienda" alt="Vivienda">
+				    	</a>
+				    </div>
+				    <div class="carousel-item">
+				    	<a href="#img_seguros_personales">
+					    	<img src="imagenes/personas_c.jpg" class="d-block w-100" title="Personas" alt="Personas">
+					    </a>
+				    </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+			  		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    	<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+			    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    	<span class="visually-hidden">Next</span>
+				</button>
+			</div>
 		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-	  		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    	<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-	    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    	<span class="visually-hidden">Next</span>
-		</button>
-	</div>
-	<!-- Fin carrusel de imagenes -->
-	<!-- Inicio de los ofrecimientos -->
-	<h1 class="h1_index">Nuestra carta de ofrecimientos</h1>
-	<div class="cuerpo_index">
-		<div class="container text-center">
-		  <div class="row">
-		    <div class="col">
-		      <img id="img_seguros_vehiculares" class="rounded" class="img_seguros_vehiculares" src="imagenes/autos.jpg" width="450" title="Vehiculos" alt="Vehiculos">
-		    </div>
-		    <div class="col">
-		      <p class="p_seguros_vehiculares">Autos, camionetas, motos...<br/>Con nosotros vas a estar seguro<br/>cada vez que manejes.</p>
-		    </div>
-		  </div>
-		  <div class="row">
-		    <div class="col">
-		      <p class="p_combinados_familiares">Sabemos que tu casa<br/>es el lugar más importante,<br/>por eso nosotros la cuidamos<br/>como si fuera nuestra.</p>
-		    </div>
-		    <div class="col">
-		      <img id="img_combinados_familiares" class="rounded" class="img_combinados_familiares" src="imagenes/casa.jpg" width="450" title="Vivienda" alt="Vivienda">
-		    </div>
-		  </div>
-		  <div class="row">
-		    <div class="col">
-		      <img id="img_seguros_personales" class="rounded" class="img_seguros_personales" src="imagenes/personas.jpg" width="450" title="Personas" alt="Personas">
-		    </div>
-		    <div class="col">
-		      <p class="p_seguros_personales">Porque vos nos importás,<br/>queremos que vivas seguro<br/>y sin preocupaciones.</p>
-		    </div>
-		  </div>
+		<!-- Fin carrusel de imagenes -->
+		<!-- Inicio de los ofrecimientos -->
+		<h1 class="h1_index">Nuestra carta de ofrecimientos</h1>
+		<div class="grilla">
+			<div class="img_seguro_1">
+				<img id="img_seguros_vehiculares" class="rounded" src="imagenes/autos.jpg" title="Vehiculos" alt="Vehiculos">
+			</div>
+			<p class="p_seguro_1">Autos, camionetas, motos...<br/>Con nosotros vas a estar seguro<br/>cada vez que manejes.</p>
+			<p class="p_seguro_2">Sabemos que tu casa<br/>es el lugar más importante,<br/>por eso nosotros la cuidamos<br/>como si fuera nuestra.</p>
+			<div class="img_seguro_2">
+				<img id="img_combinados_familiares" class="rounded" src="imagenes/casa.jpg" title="Vivienda" alt="Vivienda">
+			</div>
+			<div class="img_seguro_3">
+				<img id="img_seguros_personales" class="rounded" src="imagenes/personas.jpg" title="Personas" alt="Personas">
+			</div>
+			<p class="p_seguro_3">Porque vos nos importás,<br/>queremos que vivas seguro<br/>y sin preocupaciones.</p>
 		</div>
-	</div>
-	<!-- Fin de los ofrecimientos -->
+		<!-- Fin de los ofrecimientos -->
+	</main>
 	<footer>
 		<p id="p_footer" class="p_footer">Aseguradora Rolero es un poryecto en desarrollo por Antú Rolero.<br/>Para más información contactarse por Instagram o whatsapp.<br/>General Pico, La Pampa, Argentina.</p>
 	</footer>
