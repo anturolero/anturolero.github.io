@@ -18,22 +18,28 @@ label {
   color: white; }
 
 header {
-  color: #ffffff;
-  flex-grow: 1;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  height: 125px;
   background-color: #731723; }
 
 .navbar {
-  padding: 0px; }
+  padding: 0px;
+  background-color: #731723; }
 
 .menu {
   padding: 0px;
   margin: 0px;
   display: inline-block;
+  background-color: #731723; }
+
+.navbar-nav {
+  padding: 0px;
+  margin: 0px;
+  background-color: #731723; }
+
+.container-fluid {
+  z-index: 5;
+  padding: 0px;
+  margin: 0px;
   background-color: #731723; }
 
 .menu li {
@@ -136,6 +142,16 @@ main {
   justify-content: space-evenly;
   align-items: center; }
 
+.cuerpo_trabajando {
+  padding: 15px;
+  color: white;
+  min-height: calc(100vh - 115px - 85px);
+  background-image: linear-gradient(#003361, #6EC6E5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
 .h1_contacto {
   padding: 20px;
   padding-top: 0px; }
@@ -167,19 +183,20 @@ footer {
   text-align: center; }
 
 @media (max-width: 960px) {
-  .img_seguros_vehiculares {
+  .img_seguro_1 {
     grid-area: imagen_seguros_vehiculares; }
-  .p_seguros_vehiculares {
+  .p_seguro_1 {
     grid-area: parrafo_seguros_vehiculares; }
-  .p_combinados_familiares {
+  .p_seguro_2 {
     grid-area: parrafo_combinados_familiares; }
-  .img_combinados_familiares {
+  .img_seguro_2 {
     grid-area: imagen_combinados_familiares; }
-  .img_seguros_personales {
+  .img_seguro_3 {
     grid-area: imagen_seguros_personales; }
-  .p_seguros_personales {
+  .p_seguro_3 {
     grid-area: parrafo_seguros_personales; }
   .grilla {
+    padding-top: 60px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, minmax(auto, 300px));
     grid-template-areas: 'imagen_seguros_vehiculares'
@@ -190,10 +207,6 @@ footer {
  'parrafo_seguros_personales'; } }
 
 @media (max-width: 770px) {
-  header {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
   .menu li {
     display: flex;
     flex-direction: column;
