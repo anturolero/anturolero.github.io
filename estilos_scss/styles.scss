@@ -28,12 +28,6 @@ header {
 	padding: 0px;
 	background-color: $bordo
 }
-.menu {
-	padding: 0px;
-	margin: 0px;
-	display: inline-block;
-	background-color: $bordo;
-}
 .navbar-nav {
 	padding: 0px;
 	margin: 0px;
@@ -44,14 +38,6 @@ header {
 	padding: 0px;
 	margin: 0px;
 	background-color: $bordo;
-}
-.menu {
-	li {
-		padding: 0px;
-		margin: 0px;
-		display: inline-block;
-		background-color: $bordo;
-	}	
 }
 main {
 	display: flex;
@@ -187,14 +173,6 @@ footer {
 	}
 }
 @media (max-width: 770px) {
-	.menu {
-		li {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-		}
-	}
 	.carrusel {
 		ul {
 			display: flex;
@@ -210,5 +188,30 @@ footer {
 			justify-content: center;
 			align-items: center;
 		}
+	}
+}
+@media (max-width: 500px) {
+	#img_seguros_vehiculares {
+		width: 90vw;
+	}
+	#img_combinados_familiares {
+		width: 90vw;
+	}
+	#img_seguros_personales {
+		width: 90vw;
+	}
+	#img_mapa {
+		width: 90vw;
+	}
+	p {
+		width: 90vw;
+	}
+	h1 {
+		width: 90vw;
+	}
+}
+@media (max-width: 300px) {
+	#logo {
+		width: 100vw;
 	}
 }
