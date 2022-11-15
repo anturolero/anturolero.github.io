@@ -1,0 +1,10 @@
+[
+{"nombre": "personalMenor", "id": 1, "tipo": "Personal", "categoria": "Menor", "precio": 1000, "imagen": "imagenes/menor.jpg", "cantidad": 1},
+{"nombre": "personalMayor", "id": 2, "tipo": "Personal", "categoria": "Mayor", "precio": 3000, "imagen": "imagenes/mayor.jpg", "cantidad": 1},
+{"nombre": "autoRC", "id": 3, "tipo": "Auto", "categoria": "Responsabilidad Civil", "precio": 2000, "imagen": "imagenes/autochico.jpg", "cantidad": 1},
+{"nombre": "autoTR", "id": 4, "tipo": "Auto", "categoria": "Todo Riesgo", "precio": 10000, "imagen": "imagenes/autogrande.jpg", "cantidad": 1},
+{"nombre": "motoRC", "id": 5, "tipo": "Moto", "categoria": "Responsabilidad Civil", "precio": 450, "imagen": "imagenes/motochica.jpg", "cantidad": 1},
+{"nombre": "motoTR", "id": 6, "tipo": "Moto", "categoria": "Todo Riesgo", "precio": 6000, "imagen": "imagenes/motogrande.jpg", "cantidad": 1},
+{"nombre": "trailer", "id": 7, "tipo": "Trailer", "categoria": "Responsabilidad Civil", "precio": 1000, "imagen": "imagenes/trailer.jpg", "cantidad": 1},
+{"nombre": "motorhome", "id": 8, "tipo": "Motorhome", "categoria": "Todo Riesgo", "precio": 20000, "imagen": "imagenes/motorhome.png", "cantidad": 1}
+]
